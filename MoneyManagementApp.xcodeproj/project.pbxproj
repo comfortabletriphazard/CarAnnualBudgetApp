@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F992D1C28F4A4BF001B045D /* BudgetModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F992D1A28F4A4BF001B045D /* BudgetModel.xcdatamodeld */; };
+		2F992D1F28F4A818001B045D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F992D1E28F4A818001B045D /* CoreDataManager.swift */; };
 		2FA9AABF28F327D8008EEBD5 /* MoneyManagementAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9AABE28F327D8008EEBD5 /* MoneyManagementAppApp.swift */; };
 		2FA9AAC128F327D8008EEBD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9AAC028F327D8008EEBD5 /* ContentView.swift */; };
 		2FA9AAC328F327DC008EEBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA9AAC228F327DC008EEBD5 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F992D1B28F4A4BF001B045D /* BudgetModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BudgetModel.xcdatamodel; sourceTree = "<group>"; };
+		2F992D1E28F4A818001B045D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		2FA9AABB28F327D8008EEBD5 /* MoneyManagementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManagementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA9AABE28F327D8008EEBD5 /* MoneyManagementAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagementAppApp.swift; sourceTree = "<group>"; };
 		2FA9AAC028F327D8008EEBD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F992D1D28F4A7E1001B045D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				2F992D1E28F4A818001B045D /* CoreDataManager.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
 		2FA9AAB228F327D8008EEBD5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +63,12 @@
 		2FA9AABD28F327D8008EEBD5 /* MoneyManagementApp */ = {
 			isa = PBXGroup;
 			children = (
+				2F992D1D28F4A7E1001B045D /* Transactions */,
 				2FA9AABE28F327D8008EEBD5 /* MoneyManagementAppApp.swift */,
 				2FA9AAC028F327D8008EEBD5 /* ContentView.swift */,
 				2FA9AAC228F327DC008EEBD5 /* Assets.xcassets */,
 				2FA9AAC428F327DC008EEBD5 /* Preview Content */,
+				2F992D1A28F4A4BF001B045D /* BudgetModel.xcdatamodeld */,
 			);
 			path = MoneyManagementApp;
 			sourceTree = "<group>";
@@ -139,6 +153,8 @@
 			files = (
 				2FA9AAC128F327D8008EEBD5 /* ContentView.swift in Sources */,
 				2FA9AABF28F327D8008EEBD5 /* MoneyManagementAppApp.swift in Sources */,
+				2F992D1F28F4A818001B045D /* CoreDataManager.swift in Sources */,
+				2F992D1C28F4A4BF001B045D /* BudgetModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F992D1A28F4A4BF001B045D /* BudgetModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F992D1B28F4A4BF001B045D /* BudgetModel.xcdatamodel */,
+			);
+			currentVersion = 2F992D1B28F4A4BF001B045D /* BudgetModel.xcdatamodel */;
+			path = BudgetModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2FA9AAB328F327D8008EEBD5 /* Project object */;
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Car" representedClassName="Car" syncable="YES" codeGenerationType="class">
+        <attribute name="fuel" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="labour" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mot" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="motRetest" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="parts" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tax" attributeType="Double" usesScalarValueType="YES"/>
+        <attribute name="transaction" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="transactionDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="tyres" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="-63" positionY="-18" width="128" height="164"/>
+    </elements>
+</model>
